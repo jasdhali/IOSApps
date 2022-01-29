@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            
+            ZStack{
+                
+                Color(.white)
+                
+                Text("Hello, world!")
+                .padding()
+                
+            }
+            .navigationBarItems(leading: <#T##View#>, trailing: <#T##View#>)
+        }
     }
 }
 
